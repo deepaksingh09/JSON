@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        let obj={
+            "sub_one":"ReactJS",
+            "sub_two":"NodeJS",
+            "sub_three":"MongoDB"
+        }
+        //by dot
+        document.write(obj.sub_one,"<br>",obj.sub_two,"<br>",obj.sub_three,"<br>")
+        //square operator
+        document.write("==================================================","<br>")
+        document.write(obj["sub_one"],obj["sub_two"],obj["sub_three"],"<br>")
+
+        //destructing
+        document.write("==================================================","<br>")
+        let{sub_one,sub_two,sub_three}=obj
+        document.write(sub_one,sub_two,sub_three,"<br>")
+
+        
+    </script>
+    
+</body>
+</html>

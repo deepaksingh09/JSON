@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>object concatinate</title>
+</head>
+<body>
+    <script>
+        let obj1={"key1":"hello"};
+        let obj2={"key2":"Welcome"};
+        //string concate
+        let obj3={...obj1,...obj2};
+        document.write(obj3.key1,"<br>",obj3.key2,"<br>")
+    document.write("--------------------------------------------------------","<br>")
+        document.write(obj3["key1"],obj3["key2"])
+    </script>
+</body>
+</html>
