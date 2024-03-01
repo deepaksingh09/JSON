@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment-13</title>
+</head>
+<body>
+    <script>
+        let obj={key1:`Frontend`,key2:`Backend`,key3:`DataBase`};
+        let {key1,...obj2}=obj;
+        let {key2,...obj3}=obj2; 
+        let {key3}=obj3; 
+        document.write(key1,key2,key3);
+
+    </script>
+    
+</body>
+</html>
