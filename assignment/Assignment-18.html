@@ -8,15 +8,17 @@
 <body>
     <script>
         let obj = {
-            key: {
+            key1: {
             frontend: "Angular14",
             backend: "Dot Net",
             database: "SQL Server"
             }
             };
+            //reading key1 from obj
             let{key1}=obj
-            let{key2}=key1
-            let 
+            //pulling--destructring 
+            let{frontend,backend,database}=key1
+            document.write(frontend,backend,database)
             </script>
     
 </body>
